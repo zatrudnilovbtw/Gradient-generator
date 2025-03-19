@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gradient generator</h1>
+      <input type="color" id="color1" value="#FF0000" />
+      <input type="range" id="alpha1" min="0" max="1" step="0.01" value="1" >
+      <p id="hex1"></p>
+      <input type="color" id="color2" value="#0000FF" />
+      <input type="range" id="alpha2" min="0" max="1" step="0.01" value="1">
+      <p id="hex2"></p>
+      <div id="preview"></div>
+      <select  id="direction">
+        <option value="to right">To Right</option>
+        <option value="to left">To Left</option>
+        <option value="to bottom">To Bottom</option>
+        <option value="to top">To Top</option>
+      </select>
+      <textarea id="css-output" readonly></textarea>
+      <button id="copy-btn">Copy CSS</button>
+      <button id="random">Random gradient</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
