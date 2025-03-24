@@ -1,6 +1,9 @@
-# Gradient Generator - zgradimaker.netlify.app
+# Gradient Generator
 
 A simple web tool to create and customize CSS linear gradients. Adjust colors, transparency, and direction to generate gradients, preview them in real-time, and copy the CSS code.
+
+## Live Demo
+Try it out here: [Gradient Generator](https://zgradimaker.netlify.app)
 
 ## Features
 - Pick two colors using color inputs
@@ -11,7 +14,7 @@ A simple web tool to create and customize CSS linear gradients. Adjust colors, t
 - Random gradient generator
 
 ## How to Use
-1. Open `index.html` in a browser.
+1. Open `index.html` in a browser or visit the [live demo](https://zgradimaker.netlify.app).
 2. Customize your gradient using the controls.
 3. Click "Copy CSS" to copy the code or "Random gradient" for a random result.
 
